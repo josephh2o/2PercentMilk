@@ -2,6 +2,10 @@
  * Copyright (c) 2022 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
+ *
+ * Notes: Keymap for 2% Milk Keyboard
+ * Top Key: Play/Pause
+ * Bottom Key: Next
  */
 
 #include <behaviors.dtsi>
@@ -14,8 +18,8 @@
 
         default_layer {
             bindings = <
-                &kp C_PLAY_PAUSE
                 &kp C_NEXT
+                &kp C_PLAY_PAUSE
             >;
         };
     };
