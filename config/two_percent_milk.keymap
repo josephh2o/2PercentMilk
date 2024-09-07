@@ -18,7 +18,7 @@
         default_layer {
             bindings = <
                 &kp C_NEXT
-                &kp C_PLAY_PAUSE &rgb_ug RGB_TOG
+                &kp C_PLAY_PAUSE, &rgb_ug RGB_TOG
             >;
         };
     };
